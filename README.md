@@ -1,4 +1,4 @@
 # Kallme-Xposed
-update as of 2-25-26: the revanced team has confimed my suspicion, they are constantly checking the licenses and values of the client with the server and if anything doesnt match they wait 5 mins and shut downthe app and blacklist the account.
+update as of 2-25-26: the revanced team has confimed my suspicion, they are constantly checking the licenses and values of the client with the server and if anything doesnt match they wait 5 mins and shut down the app and blacklist the account.
 
-heres what i know: they do periodic checks to see what attributes the client is reporting, if the client reports as premium but the servers database says premium it send a pushka-tokens delete command and revokes the token
+heres what i know: they do periodic checks to see what attributes the client is reporting, if the client reports as premium but the servers database says premium it send a pushka-tokens delete command and revokes the token. This explains why using the web player or the official spotify app works, now to bypass this revanced has changed the attributes to free and on-demand. this works beacuse as of right now (2-26-26) spotify doesnt validate the on-demond attribute, but its the easy way out and has ads, im striving to edit what the client is sending to the server so it tells the server we have free attributes when in reality we dont.
